@@ -50,4 +50,15 @@ public class Order {
     return ordType;
   }
 
+  @Override
+  public String toString() {
+    return "Order{" +
+        "userId='" + userId + '\'' +
+        ", quantity=" + quantity +
+        ", price=" + price +
+        ", ordType=" + ordType +
+        ", id=" + id +
+        '}';
+  }
+
 }
