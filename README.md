@@ -6,7 +6,7 @@ cd silverbars/
 mvn clean install 
 ```
 
-Add tech-challenge-1.0-SNAPSHOT.jar to your class path
+Add silverbars/target/tech-challenge-1.0-SNAPSHOT.jar to your class path.
 
 Import the following classes
 ```
